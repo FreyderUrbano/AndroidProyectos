@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">UrbanoApp</string>
+    <string name="title_activity_menu_urbano">MenuUrbano</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Freyder Alejandro Urbano</string>
+    <string name="nav_header_subtitle">freurbano@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="description_home">Componentes UI</string>
+    <string name="description_gallery">Dialogos</string>
+    <string name="description_slideshow">Animaciones</string>
+
+    <string name="menu_home">Menu Home</string>
+    <string name="menu_gallery">Menu Gallery</string>
+    <string name="menu_slideshow">Menu SlideShow</string>
+
+    <string name="name">Nombres:</string>
+    <string name="name2">Apellidos:</string>
+    <string name="push">Ingresa</string>
+</resources>

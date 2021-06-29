@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paleta de Colores</string>
+    <string name="img_content_desc">icon app</string>
+    <string name="lbl_red">rojo</string>
+    <string name="lbl_green">verde</string>
+    <string name="lbl_blue">azul</string>
+    <string name="lbl_alpha">alpha</string>
+    <string name="iteTransparent">transparente</string>
+    <string name="iteSemitransparent">semitransparente</string>
+    <string name="iteOpaque">opaco</string>
+    <string name="iteBlack">negro</string>
+    <string name="iteWhite">blanco</string>
+    <string name="iteGreen">verde</string>
+    <string name="iteBlue">azul</string>
+    <string name="iteCian">cian</string>
+    <string name="iteYellow">amarillo</string>
+    <string name="iteMagenta">magenta</string>
+    <string name="iteBrown">cafe</string>
+    <string name="Title_aboutOf">acerca de</string>
+    <string name="Title_Help">ayuda</string>
+    <string name="Title_Exit">salida</string>
+    <string name="Title_Search">busqueda</string>
+    <string name="Title_Reset">Refrescar</string>
+</resources>
