@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Identificador"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:inputType="textCapWords" />
+
+        <RadioGroup
+            android:id="@+id/et_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Genero" />
+
+            <RadioButton
+                android:id="@+id/m_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="hombre" />
+
+            <RadioButton
+                android:id="@+id/f_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="mujer" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/et_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="edad"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="codigo"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_semester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="semester"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
